@@ -5,14 +5,16 @@ import About from './components/About';
 import Achievements from './components/Achievements';
 import Events from './components/Events';
 import Contact from './components/Contact';
+import Hanshi from './components/Hanshi';
+import Shihan from './components/Shihan';
 import Footer from './components/Footer';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
-    const handleScroll = () => {
-      const sections = ['home', 'about', 'achievements', 'events', 'contact'];
+  const handleScroll = () => {
+  const sections = ['home', 'about', 'achievements', 'events', 'hanshi', 'shihan', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -35,17 +37,15 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* TEMPORARY DEBUG MESSAGE */}
-      <h1 style={{ color: 'red', textAlign: 'center', marginTop: '2rem' }}>
-        App is rendering. If you see this, the problem is in one of the imported components.
-      </h1>
-      {/* Uncomment below to test components one by one */}
-      <Navigation activeSection={activeSection} />
-      { <Hero /> }
-      { <About /> }
-      { <Achievements /> }
-      { <Events /> }
-      { <Contact /> }
+  {/* App content */}
+  <Navigation activeSection={activeSection} />
+  { <Hero /> }
+  { <About /> }
+  { <Achievements /> }
+  { <Events /> }
+  { <Hanshi /> }
+  { <Shihan /> }
+  { <Contact /> }
       <Footer />
     </div>
   );
