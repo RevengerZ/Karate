@@ -34,7 +34,7 @@ const Shihan: React.FC = () => {
           </div>
 
           <img
-            src="shihan.jpg"
+            src="/shihan.jpg"
             alt="Shihan portrait"
             className="w-full h-64 object-cover rounded-lg shadow-md"
           />
