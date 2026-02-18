@@ -15,6 +15,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection }) => {
     { id: 'events', label: 'Events' },
     { id: 'contact', label: 'Contact' },
       { id: 'hanshi', label: 'Hanshi' },
+    { id: 'hanshi David', label: 'David' },
         { id: 'shihan', label: 'Shihan' },
   ];
 
