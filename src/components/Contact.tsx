@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Phone',
-      content: '+91 98311 97266',
+      content: '+91 98311 97266 or +91 97486 52157',
       subContent: 'Call us anytime'
     },
     {
