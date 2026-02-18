@@ -7,6 +7,7 @@ import Events from './components/Events';
 import Contact from './components/Contact';
 import Hanshi from './components/Hanshi';
 import Shihan from './components/Shihan';
+import HanshiDavid from './components/HanshiDavid';
 import Footer from './components/Footer';
 
 function App() {
