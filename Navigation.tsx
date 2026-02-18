@@ -15,6 +15,7 @@ const Navigation = ({ activeSection }: NavigationProps) => {
     { id: "events", label: "Events" },
     { id: "contact", label: "Contact" },
     { id: "hanshi", label: "Hanshi" },
+    { id: "hanshi david", label: "david" },
     { id: "shihan", label: "Shihan" },
   ];
 
