@@ -1,3 +1,26 @@
-const navItems = [  'Home',  'Hanshi',  'Hanshi David',  'Shihan',  'About',  'Contact'];
+import React from 'react';
 
-export default navItems;
+const navItems = [
+    'Home',
+    'About Us',
+    'Achievements',
+    'Events',
+    'Contact',
+    'Hanshi',
+    'Hanshi David',
+    'Shihan',
+];
+
+const Navigation = () => {
+    return (
+        <nav>
+            <ul>
+                {navItems.map((item) => (
+                    <li key={item}>{item}</li>
+                ))}
+            </ul>
+        </nav>
+    );
+};
+
+export default Navigation;
