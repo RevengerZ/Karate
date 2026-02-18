@@ -29,25 +29,25 @@ const Contact: React.FC = () => {
     {
       icon: MapPin,
       title: 'Address',
-      content: 'Academy Address',
-      subContent: 'City, State, India'
+      content: 'O-175/D, Near Nona Pukur, Dewan Bagan Lane, Garden Reach, Kolkata, West Bengal, 700024',
+      subContent: 'Kolkata, West Bengal, India'
     },
     {
       icon: Phone,
       title: 'Phone',
-      content: '+91 XXXXX XXXXX',
+      content: '+91 98311 97266',
       subContent: 'Call us anytime'
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'info@kyokushinkarateacademyindia.com',
+      content: 'ifkindiakkai.kyokushin@gmail.com',
       subContent: 'Send us a message'
     },
     {
       icon: Globe,
       title: 'Website',
-      content: 'www.kyokushinkarateacademyindia.com',
+      content: 'https://kyokushin.vercel.app',
       subContent: 'Visit our official site'
     }
   ];
