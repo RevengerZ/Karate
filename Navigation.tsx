@@ -13,10 +13,10 @@ const Navigation = ({ activeSection }: NavigationProps) => {
     { id: "about", label: "About Us" },
     { id: "achievements", label: "Achievements" },
     { id: "events", label: "Events" },
-    { id: "contact", label: "Contact" },
     { id: "hanshi", label: "Hanshi" },
-    { id: "hanshi david", label: "david" },
+    { id: "hanshi-david", label: "Hanshi David" },
     { id: "shihan", label: "Shihan" },
+    { id: "contact", label: "Contact" },
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -48,7 +48,7 @@ const Navigation = ({ activeSection }: NavigationProps) => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden md:flex space-x-1 lg:space-x-4">
             {navItems.map((item) => (
               <button
                 key={item.id}
@@ -68,7 +68,8 @@ const Navigation = ({ activeSection }: NavigationProps) => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
-              className="p-2 rounded-md text-gray-700 hover:text-red-600 hover:bg-red-50"
+              className="p-2 rounded-md text-gray-700 hover:text-red-600 hover:bg-red-50 focus:outline-none"
+              aria-label="Toggle menu"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -77,7 +78,7 @@ const Navigation = ({ activeSection }: NavigationProps) => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-white border-t shadow-md">
+          <div className="md:hidden bg-white border-t border-gray-100 shadow-md">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
                 <button
