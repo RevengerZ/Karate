@@ -25,9 +25,9 @@ const Hero: React.FC = () => {
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Kyokushin Karate Academy
+          Kyokushin Karate Academy India
           <span className="block text-red-400 text-3xl sm:text-4xl lg:text-5xl mt-2">
-            India
+            Based in India
           </span>
         </h1>
         
