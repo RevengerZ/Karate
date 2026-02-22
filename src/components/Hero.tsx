@@ -56,6 +56,13 @@ const Hero: React.FC = () => {
             We offer training programs for children, teenagers, and adults, focusing on physical fitness, 
             self-defense, mental discipline, and the true philosophy of Kyokushin Karate.
           </p>
+
+          <p className="text-base max-w-3xl mx-auto mt-4 text-gray-300">
+          <span className="font-semibold text-red-400">States we operate from:</span> 
+           West Bengal, Maharashtra, Karnataka, Bihar, Odisha, Uttar Pradesh, 
+           Uttarakhand, Manipur, Arunachal Pradesh, Meghalaya, Tripura, Delhi, 
+           Rajasthan, Gujarat, Goa, Kerala, Tamil Nadu, Andhra Pradesh
+          </p>
         </div>
       </div>
 
