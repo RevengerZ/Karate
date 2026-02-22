@@ -24,12 +24,12 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          Kyokushin Karate Academy India
-          <span className="block text-red-400 text-3xl sm:text-4xl lg:text-5xl mt-2">
-            Based in India
-          </span>
-        </h1>
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight whitespace-nowrap">
+        Kyokushin Karate Academy India
+        <span className="block text-red-400 text-2xl sm:text-3xl lg:text-4xl mt-2">
+        Based in India
+  </span>
+</h1>
         
         <p className="text-xl sm:text-2xl text-gray-200 mb-8 leading-relaxed">
           Welcome to the official home of authentic Kyokushin Karate in India
