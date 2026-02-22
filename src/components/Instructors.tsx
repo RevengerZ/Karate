@@ -44,4 +44,4 @@ const Instructors: React.FC = () => {
   );
 };
 
-export default Shihan;
+export default Instructors;
