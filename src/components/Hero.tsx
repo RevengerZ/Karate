@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
 
           <p className="text-base max-w-3xl mx-auto mt-4 text-gray-300">
           <span className="font-semibold text-red-400">States we operate from: </span> 
-           West Bengal, Maharashtra, Karnataka, Bihar, Odisha, Uttar Pradesh, 
+           West Bengal, Maharashtra, Karnataka, Bihar, Jharkhand, Odisha, Uttar Pradesh, 
            Uttarakhand, Manipur, Arunachal Pradesh, Meghalaya, Tripura, Delhi, 
            Rajasthan, Gujarat, Goa, Kerala, Tamil Nadu, Andhra Pradesh
           </p>
