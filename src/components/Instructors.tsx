@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Shihan: React.FC = () => {
+const Instructors: React.FC = () => {
   return (
     <section id="shihan" className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 text-center">
