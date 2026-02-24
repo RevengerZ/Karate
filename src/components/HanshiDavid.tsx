@@ -18,7 +18,7 @@ const HanshiDavid: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
           <div className="text-left">
-            <h3 className="text-xl font-semibold mb-2">About Hanshi David Pickthall</h3>
+            <h3 className="text-xl font-semibold mb-2">About Shihan David Pickthall</h3>
             <p className="text-gray-700 mb-4">
               A former British, European, and All Japan champion, Hanshi Pickthall
               has represented the IFK at the highest levels of competition and
