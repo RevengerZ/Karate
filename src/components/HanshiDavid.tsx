@@ -8,7 +8,7 @@ const HanshiDavid: React.FC = () => {
         <p className="text-gray-700 mb-6">
           Shihan David Pickthall, an 8th Dan Black Belt, is the President of the
           International Federation of Karate (IFK). A world-renowned competitor
-          and coach, Hanshi Pickthall has dedicated his life to the promotion
+          and coach, Sihan Pickthall has dedicated his life to the promotion
           and preservation of Kyokushin Karate. Having trained extensively
           under Hanshi Steve Arneil, he now leads the IFK with the same passion
           and commitment to excellence, ensuring that the legacy of Sosai Mas
@@ -20,7 +20,7 @@ const HanshiDavid: React.FC = () => {
           <div className="text-left">
             <h3 className="text-xl font-semibold mb-2">About Shihan David Pickthall</h3>
             <p className="text-gray-700 mb-4">
-              A former British, European, and All Japan champion, Hanshi Pickthall
+              A former British, European, and All Japan champion, Shihan Pickthall
               has represented the IFK at the highest levels of competition and
               now leads the organization globally.
             </p>
@@ -28,7 +28,7 @@ const HanshiDavid: React.FC = () => {
               <li>8th Dan Black Belt and President of the IFK.</li>
               <li>Multiple-time British, European, and All Japan Champion.</li>
               <li>Former GB National Coach for both Knockdown and Kata.</li>
-              <li>Successor to Hanshi Steve Arneil as IFK President.</li>
+              <li>Succesor of Hanshi Steve Arneil as IFK President.</li>
             </ul>
           </div>
 
