@@ -17,21 +17,20 @@ const About: React.FC = () => {
         {/* Mission + Programs */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           
-          {/* Mission */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Mission</h3>
-            
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              Our Mission
+            </h3>
+
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Kyokushin Karate Academy India was founded with the vision of creating a strong martial arts 
               community that values discipline, humility, and determination.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              Our Head Coach, 
-              <span className="font-semibold text-red-600"> Shihan Shantanu Ganguly</span>, 
-              is an internationally recognized martial artist, teacher, and the official IFK Kyokushin 
-              representative for India. With decades of experience, he has trained countless students 
-              and champions, spreading the authentic Kyokushin spirit across the nation.
+              Our Head Coach,
+              <span className="font-semibold text-red-600"> Shihan Shantanu Ganguly</span>,
+              is an internationally recognized martial artist and the official IFK Kyokushin representative for India.
             </p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-4 rounded-r-lg">
@@ -41,7 +40,6 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          {/* Training Programs */}
           <div className="bg-white rounded-lg shadow-xl p-8">
             <h4 className="text-xl font-bold text-gray-900 mb-4 text-center">
               Training Programs
@@ -72,7 +70,7 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        {/* IFK World Map Section (Replaced What Students Learn) */}
+        {/* IFK World Map Section */}
         <div className="mt-10">
           <h3 className="text-2xl font-bold text-gray-900 text-center mb-12">
             IFK Worldwide Presence
@@ -82,7 +80,7 @@ const About: React.FC = () => {
             <img
               src={ifkWorldMap}
               alt="IFK Kyokushin World Map"
-              className="w-full h-auto rounded-lg"
+              className="w-full rounded-lg"
             />
           </div>
         </div>
